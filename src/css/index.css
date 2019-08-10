@@ -385,7 +385,7 @@
 }
 .index_se_o {
   display: flex;
-  justify-content: flex-start;
+  justify-content: space-around;
   flex-wrap: wrap;
   margin-top: 0.32rem;
 }
@@ -393,6 +393,7 @@
   width: 3.43rem;
   height: 2.19rem;
   text-align: center;
+  margin-top: 0.16rem;
 }
 .index_se_o .ul1 {
   background: url(../images/fwys01.jpg) no-repeat center;
@@ -590,19 +591,8 @@
 }
 .detail_t_o {
   margin-top: 0.3rem;
-}
-.detail_t_o .swiper-slide p {
-  width: 3.23rem;
-  height: 1.95rem;
-  box-shadow: 0rem 0.01rem 0.15rem #ccc;
-  padding-top: 0.11rem;
-  border-radius: 0.2rem;
-}
-.detail_t_o .swiper-slide p img {
-  width: 2.92rem;
-  height: 1.82rem !important;
-  margin: auto;
-  display: block;
+  display: flex;
+  justify-content: space-between;
 }
 
 /*------------------联系我们--------------------*/
