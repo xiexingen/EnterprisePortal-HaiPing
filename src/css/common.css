@@ -144,7 +144,7 @@ textarea:-ms-input-placeholder {
 }
 .header_o {
   display: flex;
-  justify-content: flex-start;
+  justify-content: space-between;
 }
 .header_o h1 a img {
   display: block;
