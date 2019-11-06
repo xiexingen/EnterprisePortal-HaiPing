@@ -1,6 +1,6 @@
 $(function(){
     var hm = document.createElement("script");
-    hm.src = "https://hm.baidu.com/hm.js?dd70728e74da39ee0202093d8080c3db";
+    hm.src = "https://hm.baidu.com/hm.js?4f16ef1de0537140393f3138de6527cb";
     var s = document.getElementsByTagName("script")[0]; 
     s.parentNode.insertBefore(hm, s);
 })
