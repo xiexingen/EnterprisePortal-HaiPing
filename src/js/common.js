@@ -14,38 +14,6 @@
   doc.addEventListener("DOMContentLoaded", recalc, false);
 })(document, window);
 $(function() {
-  //侧边栏
-  $(".more").click(function() {
-    $(".mengb")
-      .stop()
-      .animate({ left: "0" }, 1000);
-  });
-  $(".close").click(function() {
-    $(".mengb")
-      .stop()
-      .animate({ left: "-7.5rem" }, 1000);
-  });
-  $(".mengb").click(function() {
-    $(this)
-      .stop()
-      .animate({ left: "-7.5rem" }, 1000);
-  });
-  $(".mengb_n").click(function(e) {
-    e.stopPropagation();
-  });
-  $(".mengb_n_t .yiji li").click(function() {
-    $(this)
-      .addClass("active")
-      .siblings("li")
-      .removeClass("active");
-    var Index = $(this).index();
-    $(".mengb_n_t .erji .erjio")
-      .eq(Index)
-      .show()
-      .siblings()
-      .hide();
-  });
-
   //导航定位
   var nav = $(".header"); //得到导航对象
   var win = $(window); //得到窗口对象
