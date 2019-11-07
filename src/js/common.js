@@ -94,6 +94,14 @@ $(function() {
     s.parentNode.insertBefore(bp, s);
   }
 
+  function autoHttps(){
+    var curProtocol = window.location.protocol.split(':')[0];
+    if(curProtocol=='http'){
+      location.href="https://www.52dibo.com";
+    }
+  }
+
   baiduZhiZhu();
   zhiZhu360();
+  autoHttps();
 });
