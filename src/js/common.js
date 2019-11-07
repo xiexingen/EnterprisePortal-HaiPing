@@ -81,8 +81,17 @@ $(function() {
   }
 
   function zhiZhu360(){
-    var src = "https://jspassport.ssl.qhimg.com/11.0.1.js?d182b3f28525f2db83acfaaf6e696dba";
-    document.write('<script src="' + src + '" id="sozz"><\/script>');
+    var bp = document.createElement('script');
+    bp.setAttribute('id','sozz')
+    var curProtocol = window.location.protocol.split(':')[0];
+    if (curProtocol === 'https') {
+        bp.src = 'https://jspassport.ssl.qhimg.com/11.0.1.js?d182b3f28525f2db83acfaaf6e696dba';
+    }
+    else {
+        bp.src = 'http://jspassport.ssl.qhimg.com/11.0.1.js?d182b3f28525f2db83acfaaf6e696dba';
+    }
+    var s = document.getElementsByTagName("script")[0];
+    s.parentNode.insertBefore(bp, s);
   }
 
   baiduZhiZhu();
