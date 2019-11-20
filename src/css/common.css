@@ -58,7 +58,7 @@ button {
   outline: none;
 }
 input:-webkit-autofill {
-  -webkit-box-shadow: 0 0 0px 1000px #f5f5f5 inset !important; //关于解决输入框背景颜色
+  -webkit-box-shadow: 0 0 0px 1000px #f5f5f5 inset !important;
 }
 html {
   font-size: 100px;
@@ -81,6 +81,13 @@ body {
   background: #f4f8fe;
   overflow: hidden;
   position: relative;
+  max-width: 1200px;
+  border: 1px solid #ff7e06;
+  border-radius: 10px;
+  border-top: none;
+  border-bottom: none;
+  border-radius: 10px;
+  min-height: 100vh;
 }
 .clearfix {
   clear: both;
@@ -140,6 +147,9 @@ textarea:-ms-input-placeholder {
   width: 100%;
   background: #fff;
   z-index: 11;
+  max-width: 1200px;
+  margin: auto;
+  right: 0;
 }
 .header_bao {
   padding-top: 0.23rem;
@@ -238,6 +248,9 @@ textarea:-ms-input-placeholder {
   width: 100%;
   background: #f4f8fe;
   z-index: 9;
+  max-width: 1200px;
+  margin: auto;
+  right: 0;
 }
 .footer_o {
   color: #999;
@@ -288,4 +301,8 @@ textarea:-ms-input-placeholder {
 }
 .active2 dl dt .imgo {
   display: none;
+}
+
+.t-center{
+  text-align: center;
 }
