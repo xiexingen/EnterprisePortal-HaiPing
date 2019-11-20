@@ -96,7 +96,7 @@ $(function() {
 
   function autoHttps(){
     var curProtocol = window.location.protocol.split(':')[0];
-    if(curProtocol=='http'){
+    if(curProtocol=='http'&&location.host.indexOf('localhost')===-1){
       location.href="https://www.52dibo.com";
     }
   }
