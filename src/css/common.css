@@ -170,6 +170,37 @@ textarea:-ms-input-placeholder {
   justify-content: flex-start;
   margin-left: 2.04rem;
 }
+
+@keyframes toright{
+  10%{
+    transform: translateX(-10px);
+    -webkit-transform: translateX(-10px);
+    -o-transform:translateX(-10px);
+    -moz-transform:translateX(-10px);
+    -o-transform:translateX(-10px);
+  }
+  80%{
+    transform: translateX(0);
+    -webkit-transform: translateX(0);
+    -o-transform:translateX(0);
+    -moz-transform:translateX(0);
+    -o-transform:translateX(0);
+  }
+}
+
+.header_t >.tel>img.handle-right{
+  display: inline-block;
+  position: absolute;
+  height: 30px;
+  width: 30px;
+  top: 0.3rem;
+  right: 2.54rem;
+  animation: toright 0.5s infinite;
+  -webkit-animation: toright 0.5s infinite;
+  -moz-animation:toright 0.5s infinite;
+  -o-animation:toright 0.5s infinite;
+}
+
 .header_t .tel img {
   display: block;
   width: 2.2rem;

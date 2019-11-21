@@ -924,5 +924,13 @@
 }
 
 .detial_bus_reg p{
-  width: 10rem;
+  width: 95%;
+    margin: 0 auto;
+}
+
+
+@media screen and (max-width: 768px) {
+  .proxy .index_w_t a{
+    width: 3.35rem;
+  }
 }
