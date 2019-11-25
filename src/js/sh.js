@@ -74,7 +74,7 @@ function loadHtml(data) {
      if(pages == zheng*10){
     	for (var i = pages; i < pages + yu; i++) {
 	        var item = data[i];
-	            html += '<a href="detail.html" class="new">';
+	            html += '<a href="tel:15580068980" class="new">';
 	            html += '<div class="z">'+item.imagess+'</div>';
 	            html += '<div class="y"><span class="sp">' + item.title + '</span>';
 	            html += '<p>' + item.detail + '</p>';
@@ -85,7 +85,7 @@ function loadHtml(data) {
     }else{
     	for (var i = pages; i < pages + 10; i++) {
 	        var item = data[i];
-	            html += '<a href="detail.html" class="new">';
+	            html += '<a href="tel:15580068980" class="new">';
 	            html += '<div class="z">'+item.imagess+'</div>';
 	            html += '<div class="y"><span class="sp">' + item.title + '</span>';
 	            html += '<p>' + item.detail + '</p>';
