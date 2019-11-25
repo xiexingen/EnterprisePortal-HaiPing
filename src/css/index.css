@@ -578,6 +578,15 @@
   margin-top: 0.3rem;
   padding-bottom: 0.37rem;
 }
+
+.detail_o_o .center-line{
+  width: 0.2rem;
+  display: inline-block;
+  border: 1px solid gray;
+  margin-bottom: 3px;
+}
+
+
 .detail_o_o p {
   width: 6.28rem;
   margin: auto;
@@ -908,4 +917,20 @@
 }
 .about_s ul li:nth-child(4) {
   background: #fafafa;
+}
+
+.fwlc img{
+  max-width: 1100px;
+}
+
+.detial_bus_reg p{
+  width: 95%;
+    margin: 0 auto;
+}
+
+
+@media screen and (max-width: 768px) {
+  .proxy .index_w_t a{
+    width: 3.35rem;
+  }
 }
