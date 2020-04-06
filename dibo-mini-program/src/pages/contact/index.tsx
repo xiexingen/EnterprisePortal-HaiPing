@@ -1,8 +1,8 @@
 import Taro from '@tarojs/taro';
-import { View, Image, Button } from '@tarojs/components';
+import { View, Image } from '@tarojs/components';
 import { PureComponent } from '@/components/BaseComponent';
 import BasicPage from '@/components/BasicPage';
-import { AtDivider, AtButton, AtIcon } from 'taro-ui';
+import { AtDivider } from 'taro-ui';
 import { ClCard, ClIcon, ClGrid, ClButton } from 'mp-colorui';
 
 class About extends PureComponent {

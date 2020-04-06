@@ -64,9 +64,9 @@ class App extends PureComponent<any> {
         },
       ],
       // color: '#888888',
-      // selectedColor: '#0CC0BD',
-      // backgroundColor: 'white',
-      // borderStyle: 'black',
+      selectedColor: '#e54d42',
+      backgroundColor: 'white',
+      borderStyle: 'black',
     },
     // permission: {
     //   'scope.userInfo': {
