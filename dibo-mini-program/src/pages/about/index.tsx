@@ -42,6 +42,7 @@ class About extends PureComponent {
             latitude={28.152834}
             longitude={112.985292}
             scale={20}
+            enableScroll
             optimize
             markers={[
               {
