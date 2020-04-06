@@ -34,21 +34,7 @@ class App extends PureComponent<any> {
    * 提示和声明 navigationBarTextStyle: 'black' | 'white' 类型冲突, 需要显示声明类型
    */
   config: Config = {
-    pages: ['pages/index/index', 'pages/my/index'],
-    // subPackages: [
-    //   {
-    //     root: 'pagesAccount',
-    //     name: 'pagesAccount',
-    //     pages: ['pages/login/index'],
-    //     // independent: true
-    //   },
-    // ],
-    // preloadRule:{
-    //   'pages/index':{
-    //     network: 'all',
-    //     packages: ['pagesAccount']
-    //   }
-    // },
+    pages: ['pages/home/index'],
     window: {
       backgroundTextStyle: 'light',
       navigationBarBackgroundColor: '#fff',
@@ -59,7 +45,7 @@ class App extends PureComponent<any> {
     tabBar: {
       list: [
         {
-          pagePath: 'pages/index/index',
+          pagePath: 'pages/home/index',
           text: '首页',
           iconPath: 'assets/images/tabs/home.png',
           selectedIconPath: 'assets/images/tabs/home-active.png',
@@ -70,12 +56,12 @@ class App extends PureComponent<any> {
         //   iconPath: 'assets/images/tabs/cate.png',
         //   selectedIconPath: 'assets/images/tabs/cate-active.png',
         // },
-        {
-          pagePath: 'pages/my/index',
-          text: '我的',
-          iconPath: 'assets/images/tabs/user.png',
-          selectedIconPath: 'assets/images/tabs/user-active.png',
-        },
+        // {
+        //   pagePath: 'pages/about/index',
+        //   text: '关于我们',
+        //   iconPath: 'assets/images/tabs/user.png',
+        //   selectedIconPath: 'assets/images/tabs/user-active.png',
+        // },
       ],
       color: '#888888',
       selectedColor: '#0CC0BD',
