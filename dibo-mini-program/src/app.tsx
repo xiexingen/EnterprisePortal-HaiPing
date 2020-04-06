@@ -34,7 +34,7 @@ class App extends PureComponent<any> {
    * 提示和声明 navigationBarTextStyle: 'black' | 'white' 类型冲突, 需要显示声明类型
    */
   config: Config = {
-    pages: ['pages/home/index', 'pages/about/index', 'pages/contact/index'],
+    pages: ['pages/contact/index', 'pages/about/index', 'pages/home/index'],
     window: {
       backgroundTextStyle: 'light',
       navigationBarBackgroundColor: '#fff',

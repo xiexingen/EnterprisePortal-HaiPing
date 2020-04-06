@@ -5,7 +5,6 @@ import { PureComponent } from '@/components/BaseComponent';
 import BasicPage from '@/components/BasicPage';
 import DiboPanel from '@/components/DiboPanel';
 import { AtDivider, AtTimeline, AtCard } from 'taro-ui';
-import { MeProps } from './me.interface';
 
 const swipperImages = [
   require('@/assets/images/pages/1.jpg'),
@@ -87,7 +86,7 @@ const serveSteps: any[] = [
   },
 ];
 
-class Home extends PureComponent<Partial<MeProps>> {
+class Home extends PureComponent {
   onShareAppMessage(share) {
     return {
       ...super.onShareAppMessage(share),
