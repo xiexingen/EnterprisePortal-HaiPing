@@ -1,6 +1,6 @@
 import Taro from '@tarojs/taro';
 // import { connect } from '@tarojs/redux';
-import defaultLogo from '@/assets/images/logo.png';
+import defaultLogo from '@/assets/images/logo.jpg';
 
 export interface IShareProps {
   title?: string;
