@@ -3,7 +3,7 @@ import { Provider } from '@tarojs/redux';
 import dva from '@/dva';
 import { globalData } from '@/utils/global';
 import models from '@/models';
-import Index from '@/pages/index';
+import Index from '@/pages/home';
 import './app.global.scss';
 
 // h5开发环境开启调试模式
@@ -34,11 +34,11 @@ class App extends PureComponent<any> {
    * 提示和声明 navigationBarTextStyle: 'black' | 'white' 类型冲突, 需要显示声明类型
    */
   config: Config = {
-    pages: ['pages/home/index'],
+    pages: ['pages/home/index', 'pages/about/index', 'pages/contact/index'],
     window: {
       backgroundTextStyle: 'light',
       navigationBarBackgroundColor: '#fff',
-      navigationBarTitleText: 'Taro-Template',
+      navigationBarTitleText: '长沙迪博财务服务有限公司',
       navigationBarTextStyle: 'black',
       // enablePullDownRefresh: true,
     },
@@ -50,23 +50,23 @@ class App extends PureComponent<any> {
           iconPath: 'assets/images/tabs/home.png',
           selectedIconPath: 'assets/images/tabs/home-active.png',
         },
-        // {
-        //   pagePath: 'pages/my/index',
-        //   text: '媒体报道',
-        //   iconPath: 'assets/images/tabs/cate.png',
-        //   selectedIconPath: 'assets/images/tabs/cate-active.png',
-        // },
-        // {
-        //   pagePath: 'pages/about/index',
-        //   text: '关于我们',
-        //   iconPath: 'assets/images/tabs/user.png',
-        //   selectedIconPath: 'assets/images/tabs/user-active.png',
-        // },
+        {
+          pagePath: 'pages/about/index',
+          text: '关于迪博',
+          iconPath: 'assets/images/tabs/cate.png',
+          selectedIconPath: 'assets/images/tabs/cate-active.png',
+        },
+        {
+          pagePath: 'pages/contact/index',
+          text: '联系我们',
+          iconPath: 'assets/images/tabs/user.png',
+          selectedIconPath: 'assets/images/tabs/user-active.png',
+        },
       ],
-      color: '#888888',
-      selectedColor: '#0CC0BD',
-      backgroundColor: 'white',
-      borderStyle: 'black',
+      // color: '#888888',
+      // selectedColor: '#0CC0BD',
+      // backgroundColor: 'white',
+      // borderStyle: 'black',
     },
     // permission: {
     //   'scope.userInfo': {

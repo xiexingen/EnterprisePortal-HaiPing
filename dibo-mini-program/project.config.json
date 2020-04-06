@@ -1,7 +1,7 @@
 {
   "miniprogramRoot": "./dist",
-  "projectname": "taro-template",
-  "description": "基于taro+taro-ui+dva的模板项目",
+  "projectname": "dibo",
+  "description": "长沙代理记账,公司注册,公司刻章,公司变更,公司注销,个体户注销,异常移出,代理记账,纳税申报,税盘托管,发票领购,个体户建账,财务整理,财税筹划,财务年检,执照年检,银行开户,公积金代办,社保代办,商标注册,商标转让,商标续展,版权申请,专利申请",
   "appid": "wxf5e38e25bbe4eea6",
   "setting": {
     "urlCheck": true,

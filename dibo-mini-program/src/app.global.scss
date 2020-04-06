@@ -2,14 +2,20 @@
 @import './scss/vars.scss';
 @import './scss/themes.scss';
 @import './scss/animate.scss';
+@import '~mp-colorui/dist/style/index.scss';
 @import '~taro-ui/dist/style/index.scss';
 
 // 页面容器样式，全局使用
 
 .body {
   min-height: 100%;
+  background-color: white;
+}
 
-  .content {
-    background-color: #f5f7fa;
-  }
+.inline {
+  display: inline-block;
+}
+
+.content {
+  background-color: #f5f7fa;
 }

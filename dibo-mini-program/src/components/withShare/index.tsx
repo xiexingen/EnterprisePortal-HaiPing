@@ -9,7 +9,7 @@ export interface IShareProps {
 }
 
 export const DEFAULT_SHAREPROPS: IShareProps = {
-  title: 'Taro-Template',
+  title: '长沙迪博财务服务有限公司',
   imgUrl: defaultLogo,
   path: 'pages/index/index',
 };
